@@ -7,9 +7,9 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./page-title.component.css']
 })
 export class PageTitleComponent implements OnInit {
-
+  title = 'This is a Movie Page';
   constructor() {
-    title = 'This is a Movie Page';
+    
    }
 
   ngOnInit() {
